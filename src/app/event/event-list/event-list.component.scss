@@ -1,0 +1,21 @@
+.event-wrapper {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+  a {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+}
+.event_header {
+  color: chocolate;
+  display: inline-block;
+}
+.event_desc {
+  text-align: left;
+}
+.images {
+  width: 350px;
+  height: auto;
+}
