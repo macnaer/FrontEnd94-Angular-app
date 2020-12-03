@@ -8,6 +8,7 @@ import { EventDetailsComponent } from "./event/event-details/event-details.compo
 import { EventComponent } from './event/event.component';
 import { EventListComponent } from './event/event-list/event-list.component';
 import { EventItemComponent } from './event/event-list/event-item/event-item.component';
+import { EventService } from './event/event.service';
 
 
 @NgModule({
@@ -23,7 +24,7 @@ import { EventItemComponent } from './event/event-list/event-item/event-item.com
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [EventService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

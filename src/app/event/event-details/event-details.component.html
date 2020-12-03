@@ -1,1 +1,19 @@
-<p>event-details works!</p>
+<div class="row">
+    <div class="col-xs-12">
+      <img [src]="event.imagePath" alt="{{ event.name }}" class="img-responsive img-detail" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-success">Add requirements</button>
+      <button class="btn btn-warning">Edit</button>
+      <button class="btn btn-danger">Delete</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      {{ event.name }} -
+      {{ event.description }}
+    </div>
+  </div>
+ 
