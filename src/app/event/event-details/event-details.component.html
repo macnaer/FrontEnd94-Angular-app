@@ -16,4 +16,13 @@
       {{ event.description }}
     </div>
   </div>
+  <div class="row">
+    <div class="col">
+      <ul class="list-group">
+        <li *ngFor="let requirement of event.requirements">
+          {{ requirement.name }} - {{ requirement.description }}
+        </li>
+      </ul>
+    </div>
+  </div>
  

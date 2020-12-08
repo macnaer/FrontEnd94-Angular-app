@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { EventComponent } from "./event/event.component";
 import { EventDetailsComponent } from "./event/event-details/event-details.component";
 import { Routes, RouterModule } from '@angular/router';
+import { RequirementsListComponent } from './requirements-list/requirements-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/events', pathMatch: 'full' },
@@ -21,6 +22,7 @@ const routes: Routes = [
       // },
     ],
   },
+  { path: 'requirements', component: RequirementsListComponent },
 ];
 
 @NgModule({
